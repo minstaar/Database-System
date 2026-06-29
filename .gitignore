@@ -1,0 +1,23 @@
+# === 중복 압축본 (이미 폴더/파일로 풀려 있어 불필요) ===
+*.zip
+
+# === OS 파일 ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === 에디터 / IDE ===
+.vscode/
+.idea/
+*.swp
+
+# === C/C++ 빌드 산출물 ===
+*.o
+*.obj
+*.exe
+*.out
+a.out
+build/
+
+# === MySQL Workbench 백업 ===
+*.mwb.bak
